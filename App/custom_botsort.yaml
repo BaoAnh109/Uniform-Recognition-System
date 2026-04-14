@@ -1,0 +1,11 @@
+# BoT-SORT settings
+tracker_type: botsort
+track_high_thresh: 0.5
+track_low_thresh: 0.1
+new_track_thresh: 0.6
+track_buffer: 90          # Đã chỉnh lên 90 (3 giây)
+match_thresh: 0.8
+gmc_method: sparseOptFlow
+proximity_thresh: 0.5
+appearance_thresh: 0.25
+with_reid: True
